@@ -1,0 +1,23 @@
+body {
+  transition: .2s all ease-in;
+}
+
+body.THEME_DARK {
+  background: #343a40;
+  color: #fff;
+}
+
+body.THEME_DARK hr {
+  border-top: 1px solid rgba(0,0,0,.9);
+}
+
+body.THEME_DARK .card {
+  background: #343a40;
+  border: 1px solid rgba(0,0,0,.875);
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
